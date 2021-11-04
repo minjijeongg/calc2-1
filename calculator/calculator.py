@@ -9,7 +9,7 @@ def inc(x_value):
     return x_value + 1
 
 class Calculator:
-    **** This is the calculator class***
+    *** This is the calculator class***
 
     """result=0"""
     history = []
