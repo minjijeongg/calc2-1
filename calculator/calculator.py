@@ -9,10 +9,6 @@ class Calculator:
     """This is the calculator class"""
     history = []
 
-    @staticmethod
-    def get_result(self):
-        """get result of calculation"""
-        return self.result
 
     @staticmethod
     def add_number(value_a, value_b):
