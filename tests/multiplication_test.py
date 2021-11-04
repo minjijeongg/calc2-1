@@ -1,5 +1,5 @@
 """Testing Multiplication class"""
-from calculator.operation.multiplication import Multiplication
+from calculator.operations.multiplication import Multiplication
 
 def test_calculator_multiply_static():
     """Tests multiplication"""
