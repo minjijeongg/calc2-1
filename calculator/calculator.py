@@ -1,8 +1,8 @@
 """ Main calc module """
-from calc.operations.addition import Addition
-from calc.operations.subtraction import Subraction
-from calc.operations.multiplication import Multiplication
-from calc.operations.division import Division
+from calculator.operations.addition import Addition
+from calculator.operations.subtraction import Subraction
+from calculator.operations.multiplication import Multiplication
+from calculator.operations.division import Division
 
 def inc(x_value):
     """ Increment Function adds one to the x_value"""
