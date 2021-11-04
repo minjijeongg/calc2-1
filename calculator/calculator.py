@@ -11,7 +11,7 @@ class Calculator:
 
     @staticmethod
     def get_result(self):
-        ***get result of calculation***
+        """get result of calculation"""
         return self.result
 
     @staticmethod
