@@ -11,7 +11,7 @@ class Calculator:
 
 
     @staticmethod
-    def add_number(value_a, value_b):
+    def add_numbers(value_a, value_b):
         """returns sum of two numbers"""
         addition = Addition(value_a, value_b)
         Calculator.history.append(addition)

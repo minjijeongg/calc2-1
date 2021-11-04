@@ -15,7 +15,7 @@ def test_calculator_multiply_static():
 
 def test_calculator_divide_static():
     """Testing"""
-    assert Calculator.divide_number(6, 2) == 3
+    assert Calculator.divide_numbers(6, 2) == 3
 
 def test_calculator_history_static_property():
     """Testing Calculator history"""
