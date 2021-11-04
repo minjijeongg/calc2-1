@@ -5,6 +5,6 @@ class Calculation: #pylint: disable=too-few-public-methods
 
     def __init__(self, *args):
         """Default constructor"""
-        self.value = []
+        self.values = []
         for arg in args:
             self.values.append(arg)
