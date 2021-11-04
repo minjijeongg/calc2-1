@@ -20,7 +20,7 @@ def test_calculator_divide_static():
 def test_calculator_history_static_property():
     """Testing Calculator history"""
     prev_length = len(Calculator.history)
-    Calculator.add_number(1, 2)
+    Calculator.add_numbers(1, 2)
     assert len(Calculator.history) == prev_length + 1
 
 def test_calculator_history_get_addition_calculation():
@@ -47,7 +47,7 @@ def test_calculator_history_get_last_obj():
 
 def test_calculator_history_get_last_result():
     """Testing method getting result of last calculation in history"""
-    result = Calculator.add_number(7,4)
+    result = Calculator.add_numbers(7,4)
     assert Calculator.get_last_history_result() == result
 
 def test_calculator_history_remove_calculation():
