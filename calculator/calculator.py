@@ -15,7 +15,6 @@ class Calculator:
     history = []
 
     """def get_result(self):
-        """polymorphism"""
         ***get result of calculation***
         return self.result"""
 
