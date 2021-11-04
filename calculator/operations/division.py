@@ -1,5 +1,5 @@
 """Division Class"""
-from calc.operations.calculation import Calculation
+from calculator.operations.calculation import Calculation
 
 class Division(Calculation):
     """Division class"""

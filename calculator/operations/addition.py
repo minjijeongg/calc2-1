@@ -1,5 +1,5 @@
 """Addition Class"""
-from calc.operations.calculation import Calculation
+from calculator.operations.calculation import Calculation
 
 class Addition(Calculation): #pylint: disable=too-few-public-methods
     """Addition class"""

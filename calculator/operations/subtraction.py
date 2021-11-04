@@ -1,5 +1,5 @@
 """Subtraction Class"""
-from calc.operations.calculation import Calculation
+from calculator.operations.calculation import Calculation
 
 class Subtraction(Calculation): #pylint: disable=too-few-public-methods
     """Subtraction class"""
