@@ -1,5 +1,5 @@
 """Testing Addition class"""
-from calc.operations.addition import Addition
+from calcultor.operations.addition import Addition
 
 def test_operation_addition():
     """Tests addition"""
