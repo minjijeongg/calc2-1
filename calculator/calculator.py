@@ -1,6 +1,6 @@
 """ Main calc module """
 from calculator.operations.addition import Addition
-from calculator.operations.subtraction import Subraction
+from calculator.operations.subtraction import Subtraction
 from calculator.operations.multiplication import Multiplication
 from calculator.operations.division import Division
 
